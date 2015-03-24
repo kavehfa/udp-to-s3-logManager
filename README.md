@@ -4,7 +4,7 @@
 ### How to Run:
 install nodejs.<br/>
 clone the repository.<br/>
-run nom install inside cloned folder.<br/>
+run npm install inside cloned folder.<br/>
 rename config-template.json to config.json<br/>
 configure config.json<br/>
 run node index.js<br/>

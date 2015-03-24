@@ -11,6 +11,7 @@ run node index.js
 
 
 Config File:
+```
 {
     "NumOfFreeCpus":0, <- number of cpu cores you wish to keep free on your server
     "isProduction": false, <- set to true if production. this will set the local error logging to ERROR level.
@@ -34,3 +35,4 @@ Config File:
         {"expression":"ERROR", "type":"email", "to":"email@email.com", "subject":"Error Report"}
     ]     
 }
+```

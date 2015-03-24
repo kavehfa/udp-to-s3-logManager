@@ -1,16 +1,18 @@
 # udp-to-s3-logManager
-A UDP to AWS S3 log management application written in NodeJs. It also has support for executing actions like sending an email if a message matches a Regex.
+## A UDP to AWS S3 log management application written in NodeJs. It also has support for executing actions like sending an email if a message matches a Regex.
 
-How to Run:
-install nodejs.
-clone the repository.
-run nom install inside cloned folder.
-rename config-template.json to config.json
-configure config.json
-run node index.js
+### How to Run:
+install nodejs.<br/>
+clone the repository.<br/>
+run nom install inside cloned folder.<br/>
+rename config-template.json to config.json<br/>
+configure config.json<br/>
+run node index.js<br/>
+<br/>
+<br/>
 
 
-Config File:
+### Config File:
 ```
 {
     "NumOfFreeCpus":0, <- number of cpu cores you wish to keep free on your server

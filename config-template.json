@@ -1,0 +1,25 @@
+{
+    "NumOfFreeCpus":0,
+    "isProduction": false,
+    "liteningIp": "127.0.0.1",
+    "udpPort":33333,
+    "awsRegion":"region",
+    "awsAccessKey":"key",
+    "awsSecretKey":"secret",
+    "awsS3Bucket":"your bucket name",
+    "awsS3LogFolder":"folder name. you can include / for subfolders",
+    "s3LogFileMaxSizeBytes":10000,
+    "inMemLogFlushInterval":10000,
+    "smtp":{
+            "username": "username",
+            "password": "pass",
+            "host":"smtp.gmail.com",
+            "port":587,
+            "sender":"your email"
+    },
+    "actions":[
+        {"expression":"ERROR", "type":"email", "to":"email@email.com", "subject":"Error Report"}
+    ]
+    
+        
+}

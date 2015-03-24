@@ -1,5 +1,8 @@
 # udp-to-s3-logManager
-## A UDP to AWS S3 log management application written in NodeJs. It also has support for executing actions like sending an email if a message matches a Regex.
+A UDP to AWS S3 log management application written in NodeJs. <br/>
+This application collects messages from UDP port and stores them in S3.<br/>
+It also supports running actions against each message if it matches a regex.<br/>
+For example you can configure the app to send you email alerts if a message contains keyword ‘ERROR’.
 
 ### How to Run:
 install nodejs.<br/>
